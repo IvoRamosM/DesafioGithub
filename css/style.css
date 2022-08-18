@@ -16,10 +16,22 @@ h1{
     margin: 15px auto;
 }
 
+.div-hola:hover{
+    background-color: chartreuse;
+    transition: .3s;
+}
+
 .flex-index{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+}
+
+h1:hover{
+    color: hotpink;
+    transform: skew(15deg);
+    transition: .3s;
 
 }
 
