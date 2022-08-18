@@ -5,5 +5,19 @@
 }
 
 h1{
+    font-family: 'Courier New', Courier, monospace;
     color: blue;
+}
+
+.div-hola{
+    background-color: lightblue;
+    text-align: center;
+    max-width: 650px;
+    margin: 15px auto;
+}
+
+@media (max-width: 650px){
+    .div-hola{
+        background-color: orange;
+    }
 }
